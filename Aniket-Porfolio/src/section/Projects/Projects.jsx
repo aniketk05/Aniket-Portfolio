@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from '../Projects/ProjectStyles.module.css'
 import ProjectsCard from '../../comman/ProjectsCard'
-import viberr from '../../assets/viberr.png'
-import freshburgur from '../../assets/fresh-burger.png'
-import hipper from '../../assets/hipsster.png'
-import liftfit from '../../assets/fitlift.png'
+import viberr from '../../assets/Tic-Tac-Toe.png'
+import freshburgur from '../../assets/Physiotherapy.png'
+import hipper from '../../assets/Dice.png'
+import liftfit from '../../assets/E-Commerce.png'
 
 
 export default function Projects() {
@@ -14,27 +14,27 @@ export default function Projects() {
         <div className={styles.projectsContainer}>
           <ProjectsCard 
           src={viberr }
-          link='github.com'
-          h3='Viberr'
-          p='Lorem, ipsum.'
+          link='https://github.com/aniketk05/Tic-Tac-Toe_Games'
+          h3='Tic-Tac-Toe'
+          p='Tic-Tac-Toe Game'
           />
           <ProjectsCard 
           src={freshburgur}
           link='github.com'
-          h3='Fresh Burger'
-          p='Hamburger Resturant'
+          h3='Physiotherapy'
+          p='Physiotherapy Clinic'
           />
             <ProjectsCard 
           src={hipper }
-          link='github.com'
-          h3='Hipsster'
-          p='Glasses Shop'
+          link='https://github.com/aniketk05/Roll-Dice-Game'
+          h3='Roll-Dice'
+          p='Roll The Dice Game'
           />
            <ProjectsCard 
           src={liftfit }
-          link='github.com'
-          h3='FitLift'
-          p='Fitness App'
+          link='https://github.com/aniketk05/Amazon-clone-project'
+          h3='E-Commerce'
+          p='Shopping Website'
           />
           
         </div>

@@ -61,8 +61,7 @@ function Hero() {
         </a>
       </span>
       <p className={styles.decription}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odit.
-      </p>
+      As a passionate full stack developer. Eager to apply my skills in real-world projects and continuously learn and grow in the tech industry. </p>
       <a href={CV} download>
         <button className="hover" >
           Resume

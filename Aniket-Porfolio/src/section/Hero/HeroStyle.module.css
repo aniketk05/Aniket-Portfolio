@@ -71,7 +71,8 @@
 }
 
 .decription{
-    max-width: 40ch;
+    max-width: 25ch;
+    margin: auto;
     
 }
 
@@ -93,6 +94,11 @@
             max-width: 350px;
             width: 350px;
         }
+        .decription{
+            max-width: 40ch;
+            margin: auto;
+            
+        }
     }
 }
 
@@ -105,5 +111,6 @@
             max-width: 400px;
             width: 400px;
         }
+      
     }
 }
